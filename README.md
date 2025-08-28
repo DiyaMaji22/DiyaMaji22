@@ -42,22 +42,8 @@
 
 ---
 
-## 🐍 Contribution Snake
 
-<div align="center">
-  <img src="https://github.com/DiyaMaji22/DiyaMaji22/blob/output/github-contribution-grid-snake.svg" alt="Snake animation" />
-</div>
 
----
-
-## 🌟 What I'm Working On
-
-- 📚 Building a solid foundation in **Data Structures & Algorithms**
-- 🌐 Creating web projects to strengthen my development skills
-- 🤖 Exploring **Python** for automation and problem-solving
-- 📖 Contributing to **open source projects**
-
----
 
 ## 🎯 Current Focus
 
