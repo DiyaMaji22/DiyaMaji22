@@ -50,20 +50,8 @@
 
 ---
 
-## 🐍 Contribution Snake
-
-<div align="center">
- <img src="https://raw.githubusercontent.com/DiyaMaji22/DiyaMaji22/output/github-contribution-grid-snake.svg" alt="Snake animation" />
-
-</div>
 
 ---
-
-## 🏆 GitHub Trophies
-
-<div align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=DiyaMaji22&theme=tokyonight&no-frame=true&no-bg=false&margin-w=4&row=1" alt="GitHub Trophies"/>
-</div>
 
 ---
 
@@ -122,10 +110,6 @@ const diya = {
   <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight&border=true" alt="Random Dev Quote"/>
 </div>
 
-### 🎵 Spotify Playing
-<div align="center">
-  <img src="https://spotify-github-profile.vercel.app/api/spotify?background_color=1a1b27&border_color=58a6ff" alt="Spotify Now Playing" />
-</div>
 
 ---
 
