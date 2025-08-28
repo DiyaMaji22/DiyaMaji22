@@ -53,7 +53,8 @@
 ## 🐍 Contribution Snake
 
 <div align="center">
-  <img src="https://github.com/DiyaMaji22/DiyaMaji22/blob/output/github-contribution-grid-snake.svg" alt="Snake animation" />
+ <img src="https://raw.githubusercontent.com/DiyaMaji22/DiyaMaji22/output/github-contribution-grid-snake.svg" alt="Snake animation" />
+
 </div>
 
 ---
@@ -105,8 +106,8 @@ const diya = {
 
 ## 🤝 Let's Connect!
 
-[![LinkedIn](https://img.shields.io/badge/-LinkedIn-0077B5?style=flat-square&logo=LinkedIn&logoColor=white)](your-linkedin-profile)
-[![Email](https://img.shields.io/badge/-Email-D14836?style=flat-square&logo=Gmail&logoColor=white)](mailto:your-email@example.com)
+[![LinkedIn](https://img.shields.io/badge/-LinkedIn-0077B5?style=flat-square&logo=LinkedIn&logoColor=white)](https://www.linkedin.com/in/diya-maji22/)
+[![Email](https://img.shields.io/badge/-Email-D14836?style=flat-square&logo=Gmail&logoColor=white)](mailto:diyamaji22@gmail.com)
 
 ---
 
@@ -134,40 +135,3 @@ const diya = {
 
 ---
 
-### To enable the Snake Animation:
-
-1. Go to your profile repository settings
-2. Navigate to Actions → General
-3. Enable "Allow all actions and reusable workflows"
-4. Create `.github/workflows/snake.yml` in your repository with this content:
-
-```yaml
-name: Generate Snake
-
-on:
-  schedule:
-    - cron: "0 */12 * * *"
-  workflow_dispatch:
-
-jobs:
-  generate:
-    runs-on: ubuntu-latest
-    timeout-minutes: 10
-    
-    steps:
-      - name: generate github-contribution-grid-snake.svg
-        uses: Platane/snk/svg-only@v2
-        with:
-          github_user_name: DiyaMaji22
-          outputs: |
-            dist/github-contribution-grid-snake.svg
-            dist/github-contribution-grid-snake-dark.svg?palette=github-dark
-
-      - name: push github-contribution-grid-snake.svg to the output branch
-        uses: crazy-max/ghaction-github-pages@v2.6.0
-        with:
-          target_branch: output
-          build_dir: dist
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-```
